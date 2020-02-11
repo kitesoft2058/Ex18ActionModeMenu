@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_action"
+        android:title="actionview"
+        android:icon="@android:drawable/ic_menu_more"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionLayout="@layout/actionview_aaa"/>
+    <!--    app:showAsAction="ifRoom|collapseActionView"  :  별도의 커스텀 액션메뉴를 사용한다고 설정-->
+    <!--  actionLayout : 액션바에 메뉴로서 보여질 레이아웃 파일 지정  -->
+
+</menu>
